@@ -1,0 +1,8 @@
+{% extends 'blog/base.html' %}
+{% block content %}
+
+<h1>{{blog_detail.title}} details</h1>
+{{blog_detail.content}} <br>{{blog_detail.date_created}}
+<br><br> <a href="/posts/">BACK</a>
+
+{% endblock %}
